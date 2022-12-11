@@ -46,4 +46,4 @@ I haven't got any commercial experience, but there are some study projects:<br/>
 
 ## English
 
-Main subject of study in the university, but I had a lack of practice for oa couple of years during maternity leave and while working with juniors at school.
+Main subject of study in the university, but I had a lack of practice for a couple of years during maternity leave and while working with juniors at school.
