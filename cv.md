@@ -29,19 +29,19 @@ function multiply(a, b) {
 
 ## Experience
 
-I haven't got any commercial experience, but there are some study projects:
-[Design studio landing-page](https://katwind.github.io/design/) - non-responsive
+I haven't got any commercial experience, but there are some study projects:<br/>
+[Design studio landing-page](https://katwind.github.io/design/) - non-responsive<br/>
 [Studying platform](https://katwind.github.io/platform/) - adaptivity on progress
 
 ## Education
 
 - #### Minsk State Limguistic University
 
-  2010-2015
+  2010-2015</br>
   English Teacher
 
 - #### Institute of IT and Business Administration
-  2016-2018
+  2016-2018<br/>
   Programmer
 
 ## English
