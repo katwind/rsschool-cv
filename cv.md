@@ -1,18 +1,16 @@
-## Rsschool
-
 # Katerina Korobova
 
-### Contacts
+## Contacts
 
 - **tel:** +37529-106-64-92;
 - **e-mail:** katarina.linz92@gmail.com;
 - **LinkedIn:** [Katerina Korobova](https://www.linkedin.com/in/katerina-korobova);
 
-### About
+## About
 
-I've graduated from Linguistic University on 2015, in 2017 I've finished IBA retraining program. Then I took a break on maternity leave and for several month I'm improving in web-development. I left my Teaching job to changing my career and life.
+I've graduated from Linguistic University on 2015, in 2018 I've finished IBA retraining program. Then I took a break on maternity leave and for several month I'm improving in web-development. I left my Teaching job to changing my career and life.
 
-### Skills
+## Skills
 
 - HTML
 - CSS
@@ -21,10 +19,31 @@ I've graduated from Linguistic University on 2015, in 2017 I've finished IBA ret
 - DOM-manipulations
 - Figma (basic)
 
-### Code
+## Code
 
 ```javascript
 function multiply(a, b) {
   return a * b;
 }
 ```
+
+## Experience
+
+I haven't got any commercial experience, but there are some study projects:
+[Design studio landing-page](https://katwind.github.io/design/) - non-responsive
+[Studying platform](https://katwind.github.io/platform/) - adaptivity on progress
+
+## Education
+
+- #### Minsk State Limguistic University
+
+  2010-2015
+  English Teacher
+
+- #### Institute of IT and Business Administration
+  2016-2018
+  Programmer
+
+## English
+
+Main subject of study in the university, but I had a lack of practice for oa couple of years during maternity leave and while working with juniors at school.
