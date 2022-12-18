@@ -1,0 +1,127 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+}
+header,
+footer {
+  background-color: #3b3535;
+}
+.menu,
+.footer-wrapper {
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 30px 0;
+  align-items: center;
+  color: #fff;
+}
+
+.logo {
+  max-width: 135px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.menu-list ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 30px;
+  color: #fff;
+  font-size: 16px;
+}
+.menu-item a,
+.footer-wrapper a {
+  color: #fff;
+  transition: 0.5s ease;
+}
+.menu-item a:hover,
+.footer-wrapper a:hover {
+  color: #000;
+}
+main {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: #ece2ca;
+}
+
+.contacts img {
+  max-width: 100px;
+  margin: auto 0;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 5.7% 0;
+}
+.contact-list,
+.skill-list {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  line-height: 150%;
+  color: #3b3535;
+}
+a:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.about,
+.skills,
+.code,
+.experience,
+.education,
+.english {
+  margin: 50px 6%;
+  line-height: 150%;
+  border-top: 1px solid #3b3535;
+}
+
+h2 {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.code-example {
+  background-color: #c5c5c5;
+  max-width: 400px;
+  padding: 20px;
+}
+
+p span {
+  font-size: 14px;
+}
+
+h3 {
+  font-size: 18px;
+}
+.english {
+  margin-bottom: 0;
+}
+.english p {
+  padding-bottom: 60px;
+  margin-bottom: 0;
+}
+
+.footer-wrapper img {
+  max-width: 100px;
+}
+
+.footer-wrapper img:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease;
+}
