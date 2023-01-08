@@ -1,151 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV</title>
-    <link href="./css/style.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <div class="menu">
+            href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap"
+            rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+    <title>Plants</title>
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/svg">
+</head>
+<body>
+<header>
+    <div class="container">
         <div class="logo">
-          <img src="./img/rss1.png" alt="logo" />
+            <svg width="20" height="21">
+                <use xlink:href="./images/icons.svg#site-logo"></use>
+            </svg>
+            <p>Plants</p>
         </div>
-        <nav class="menu-list">
-          <ul>
-            <li class="menu-item">
-              <a href="#about">About</a>
-            </li>
-            <li class="menu-item">
-              <a href="#skills">Skills</a>
-            </li>
-            <li class="menu-item">
-              <a href="#code">Code</a>
-            </li>
-            <li class="menu-item">
-              <a href="#experience">Experience</a>
-            </li>
-            <li class="menu-item">
-              <a href="#education">Education</a>
-            </li>
-            <li class="menu-item">
-              <a href="#english">English</a>
-            </li>
-          </ul>
+        <nav class="menu">
+            <ul>
+                <li class="menu-item">
+                    <a href="#" class="item"> <span>Home</span></a>
+                </li>
+                <li class="menu-item">
+                    <a href="#about-section" class="item"> About us</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#service-section" class="item">Service</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#prices-section" class="item">Price</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#contacts-section" class="item">Contacts</a>
+                </li>
+            </ul>
         </nav>
-      </div>
-    </header>
-    <main>
-      <section class="contacts" id="contacts">
-        <img src="./img/avatar.jpg" alt="avatar" />
-        <div class="contact-wrapper">
-          <h1>Katerina Korobova</h1>
-          <ul class="contact-list">
-            <li class="contact-item">
-              Phone: <a href="tel:+375291066492">+375-29-106-64-92</a>
-            </li>
-            <li class="contact-item">
-              Email:
-              <a href="mailto:katarina.linz92@gmail.com"
-                >katarina.linz92@gmail.com</a
-              >
-            </li>
-            <li class="contact-item">
-              LinkedIn:
-              <a href="https://www.linkedin.com/in/katerina-korobova"
-                >https://www.linkedin.com/in/katerina-korobova</a
-              >
-            </li>
-          </ul>
+    </div>
+</header>
+<main>
+    <section class="welcome" id="welcome-section">
+        <div class="welcome-container">
+            <div class="image-container">
+                <img src="./images/leafs.png" alt="leaves">
+            </div>
+            <div class="welcome-text">
+                <h1>We grow <span>plants</span> and give you oxygen</h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s.
+                </p>
+                <button class="welcome-button">Learn more</button>
+            </div>
         </div>
-      </section>
-      <section class="about" id="about">
-        <h2>About</h2>
-        <p class="about-info">
-          I've graduated from Linguistic University on 2015, in 2018 I've
-          finished IBA retraining program. Then I took a break on maternity
-          leave and for several month I'm improving in web-development. I left
-          my Teaching job to changing my career and life.
-        </p>
-      </section>
-      <section class="skills" id="skills">
-        <h2>Skills</h2>
-        <ul class="skill-list">
-          <li class="skill-item">HTML</li>
-          <li class="skill-item">CSS</li>
-          <li class="skill-item">Javascript</li>
-          <li class="skill-item">Preprocessor SCSS</li>
-          <li class="skill-item">Figma (basic)</li>
+    </section>
+    <section class="about" id="about-section">
+        <div class="about-text">
+            <h2>
+                We are <span>professional <br>experienced</span> gardeners
+            </h2>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived not
+                only five centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged.
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="./images/houseplant1.png" alt="houseplant">
+        </div>
+    </section>
+    <section class="service" id="service-section">
+        <div class="service-container">
+            <div class="service-head">
+                <h2>
+                    Service and our <br>
+                    projects
+                </h2>
+                <div class="buttons">
+                    <button class="service-button">Gardens</button>
+                    <button class="service-button">Lawn</button>
+                    <button class="service-button">Planting</button>
+                </div>
+            </div>
+            <div class="service-cards">
+                <div class="card">
+                    <img src="./images/first.png" alt="Garden care">
+                    <div class="card-text">
+                        <h4>Garden care</h4>
+                        <p>Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/second.png" alt="Planting">
+                    <div class="card-text">
+                        <h4>Planting</h4>
+                        <p>Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/third.png" alt="Lawn care">
+                    <div class="card-text">
+                        <h4>Lawn care</h4>
+                        <p>Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/forth.png" alt="Planting">
+                    <div class="card-text">
+                        <h4>Planting</h4>
+                        <p>Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/fifth.png" alt="Garden care">
+                    <div class="card-text">
+                        <h4>Garden care</h4>
+                        <p>Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/sixth.png" alt="Planting">
+                    <div class="card-text">
+                        <h4>Planting</h4>
+                        <p>Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="prices" id="prices-section">
+        <div class="prices-container">
+            <div class="price-left">
+                <h2>Prices</h2>
+                <div class="price-list">
+                    <input type="radio" name="accordion" id="accord1">
+                    <label for="accord1">Basics</label>
+
+                    <input type="radio" name="accordion" id="accord2">
+                    <label for="accord2">Standard</label>
+
+                    <input type="radio" name="accordion" id="accord3">
+                    <label for="accord3">Pro care</label>
+                </div>
+            </div>
+            <div class="price-right">
+                <h3>Our best <span> gardeners</span> are ready to help you</h3>
+                <button class="contact-button">Contact us</button>
+                <br>
+                <img src="./images/leafs_short.png" alt="leaves">
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="contacts-section">
+        <div class="contact-container">
+            <img src="./images/contact_woman.png" alt="Contact-image">
+            <div class="contact-form">
+                <h2>Contact us</h2>
+                <div class="cities">
+                    <select name="city-list" id="select-city">
+                        <option selected disabled>City</option>
+                        <option value="Can">Canandaigua, NY</option>
+                        <option value="NY">New York</option>
+                        <option value="Yonk">Yonkers, NY</option>
+                        <option value="Sher">Sherrill, NY</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="footer-container">
+        <div class="year">
+            <p>&#169;</p>
+            <p>2022</p>
+            <a href="https://github.com/katwind">github</a>
+        </div>
+        <div class="rss">
+            <a href="https://rs.school/js-stage0/">Rolling Scopes School</a>
+        </div>
+        <ul class="icons">
+            <li><a href="https://www.instagram.com/" class="icon-item"
+            >
+                <svg width="32" height="30">
+                    <use xlink:href="./images/icons.svg#instagram"></use>
+                </svg
+                >
+
+            </a>
+            </li>
+            <li>
+            <a href="https://www.facebook.com/" class="icon-item"
+            >
+                <svg width="30" height="30">
+                    <use xlink:href="./images/icons.svg#facebook"></use>
+                </svg
+                >
+            </a></li>
+            <li>
+            <a href="https://twitter.com/" class="icon-item"
+            >
+                <svg style="padding-bottom: 4px" width="30" height="22">
+                    <use xlink:href="./images/icons.svg#twitter"></use>
+                </svg
+                >
+            </a></li>
+            <li>
+            <a href="https://www.pinterest.com/" class="icon-item"
+            >
+                <svg width="30" height="30">
+                    <use xlink:href="./images/icons.svg#pinterest"></use>
+                </svg
+                >
+            </a></li>
         </ul>
-      </section>
-      <section class="code" id="code">
-        <h2>Code example</h2>
-        <p>
-          I haven't got any progress on Codewars yet, so that's the example of a
-          test task.<br />
-        </p>
-        <div class="code-example">
-          <code>
-            function multiply(a, b) { <br />
-            return a * b; <br />
-            }
-          </code>
-        </div>
-      </section>
-      <section class="experience" id="experience">
-        <h2>Experience</h2>
-        <p>
-          I haven't got any commercial experience, but there are some study
-          projects:
-        </p>
-        <a href="https://katwind.github.io/design/"
-          >Design studio landing-page</a
-        >
-        - non-responsive
-        <br />
-        <a href="https://katwind.github.io/platform/">Studying platform</a> -
-        adaptivity on progress
-      </section>
-      <section class="education" id="education">
-        <h2>Education</h2>
-        <h3>Minsk State Linguistic University</h3>
-        <p>
-          English faculty<br />
-          Teacher of foreign languages - English, Swedish<br />
-          <span>2010-2015</span><br />
-        </p>
-        <h3>Institute of IT and Business Administration</h3>
-        <p>
-          Retraining program<br />
-          Fullstack developer<br />
-          <span>2016-2018</span><br />
-        </p>
-      </section>
-      <section class="english" id="english">
-        <h2>English</h2>
-        <p>
-          Main subject of study in the university, but I had a lack of practice
-          for a couple of years during maternity leave and while working with
-          juniors at school.
-        </p>
-      </section>
-    </main>
-    <footer>
-      <div class="footer-wrapper">
-        <a href="https://github.com/katwind">Github katwind</a>
-        <a href="https://rs.school/js/">
-          <img src="./img/rss1.png" alt="logo" />
-        </a>
-        <p>2022</p>
-      </div>
-    </footer>
-  </body>
+    </div>
+</footer>
+<script src="index.js"></script>
+</body>
 </html>
